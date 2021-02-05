@@ -3,7 +3,8 @@ name: CI
 on:
   push:
     branches: [ main ]
-  release: [ created ]
+  release:
+    types: [ published ]
 
 jobs:
   build:
