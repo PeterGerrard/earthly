@@ -25,4 +25,4 @@ jobs:
     - name: Earthly version
       run: earthly --version
     - name: Run build
-      run: earthly +build
+      run: earthly +docker
